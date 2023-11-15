@@ -14,6 +14,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-tabs": ["error", { allowIndentationTabs: true }],
   },
 }
